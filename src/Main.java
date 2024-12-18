@@ -10,5 +10,12 @@ public class Main {
         Client client = new Client(
                 "Gabriel",
                 new BancoX());
+
+        Cachorro cachorro = new Cachorro();
+        cachorro.comer("ração");
+        String nomeDoCachorro = cachorro.nome;
+
+        Cachorro tombaLata = new Cachorro();
+        tombaLata.comer("comida");
     }
 }
